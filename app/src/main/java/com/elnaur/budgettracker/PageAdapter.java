@@ -30,6 +30,8 @@ public class PageAdapter extends FragmentPagerAdapter {
                 return new AddItemFragment();
             case 1:
                 return new ViewItemsFragment();
+            case 2:
+                return new ConvertMoneyFragment();
             default:
                 return null;
         }
