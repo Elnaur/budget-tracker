@@ -60,12 +60,12 @@ public class ConvertMoneyFragment extends Fragment implements View.OnClickListen
 
         int id = view.getId();
 
-        if (id == R.id.btnConvertToHKD) {
+        if (id == R.id.btnConvertToHKD && !editConvertToHKD.getText().toString().equals("")) {
             initial = parseDouble(editConvertToHKD.getText().toString());
             converted = initial / EXCHANGE_RATE;
             textToHKD.setText(String.format(Locale.CHINA, "$ %.2f", converted));
 
-        } else if (id == R.id.btnConvertToR) {
+        } else if (id == R.id.btnConvertToR && !editConvertToR.getText().toString().equals("")) {
             initial = parseDouble(editConvertToR.getText().toString());
             converted = initial * EXCHANGE_RATE;
             textToR.setText(String.format(Locale.ENGLISH, "R %.2f", converted));
