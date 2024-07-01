@@ -22,8 +22,6 @@ public class MainActivity extends AppCompatActivity {
         tabLayout = (TabLayout)findViewById(R.id.tabLayout);
         viewPager = (ViewPager)findViewById(R.id.viewPager);
 
-        int i = 0;
-
         adapter = new PageAdapter(this,getSupportFragmentManager(), tabLayout.getTabCount());
         viewPager.setAdapter(adapter);
 

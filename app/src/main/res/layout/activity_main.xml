@@ -34,7 +34,7 @@
             android:id="@+id/tabConvert"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Convert currency" />
+            android:text="Convert" />
 
     </com.google.android.material.tabs.TabLayout>
 
