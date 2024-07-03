@@ -87,7 +87,7 @@
             android:textSize="20sp" />
 
         <Spinner
-            android:id="@+id/spnCatagory"
+            android:id="@+id/spnCategory"
             android:layout_width="match_parent"
             android:layout_height="64dp"
             android:contextClickable="false"
